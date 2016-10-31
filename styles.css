@@ -1,0 +1,164 @@
+body {
+    font-family:  'Open Sans', sans-serif;
+    background-color: #0D1B24;
+}
+
+.wrapper {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.boks {
+	border: 1px solid black; 
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	margin: 20px;
+	cursor: zoom-in;
+	box-shadow: inset -10px 0 10px -10px black;
+
+}
+
+.bokser {
+	margin-top: 180px;
+	margin-bottom: 200px;
+}
+
+h1 {
+	font-weight: 300;
+	padding-top: 60px;
+}
+
+.strek {
+	width: 80%;
+	background-color: #E4E4E4;
+	height: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.speil {
+-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+	color: #ccc;
+}
+
+
+/*     ---------- Kategorier --------------    */
+
+.infoboks {
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	height: 700px;
+	margin-top: 100px;
+	width: 100%;
+	border: 1px solid black; 
+	box-shadow: inset -10px 0 10px -10px black;
+	overflow: auto;
+}
+
+.infoboks h1 {
+	padding-top: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.pil {
+	font-size: 40px;
+	position: fixed;
+	margin-left: -27%;
+}
+
+.profilbilde {
+	float: right;
+	margin-right: 50px;
+	border: 1px solid black;
+	margin-top: 20px;
+	width: 28%;
+}
+
+.hackathon {
+	float: right;
+	margin-right: 50px;
+	border: 1px solid black;
+	margin-top: 20px;
+	width: 40%;
+}
+
+
+.ikon {
+	width: 50px;
+	margin: 10px;
+}
+
+.skrift, .personalia {
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 50px;
+	width: 27%;
+	font-size: 18px;
+	float: left;
+}
+
+.skrift2 {
+	width: 30%;
+		padding-top: 20px;
+	padding-left: 50px;
+	width: 27%;
+	font-size: 18px;
+	text-align: left;
+	float: left;
+}
+
+.skriftUT {
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 50px;
+	width: 27%;
+	font-size: 18px;
+}
+
+
+.personalia {
+	font-size: 16px;
+	width: 58%;
+}
+
+.skrift h2, .skrift2 h2 {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.innrykk {
+	text-align: left;
+	margin-left: 50px;
+	float: left;
+	font-size: 16px;
+}
+
+.innrykkUT {
+	text-align: left;
+	margin-left: 50px;
+	font-size: 16px;
+}
+
+li {
+	text-align: left;
+	margin-left: 90px;
+}
