@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StudentGuiden</title>
+	<meta charset="utf-8">
+    <link href="css.css" rel="stylesheet" type="text/css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<h2><a href="index.html">StudentGuiden</h2></a>
+		<div class="header">
+			<a href="butikken.html">På matbutikken</a>
+			<a href="kjokkenet.html">På kjøkkenet</a>
+			<a href="ellers.html">Ellers</a>
+			<a href="oppskrifter.html">Oppskrifter</a>
+			<a href="forfatteren.html">Forfatteren</a>
+		</div>
+		<div class="wrap">
+		<span class="decor"></span>
+		<nav>
+		  <ul class="primary">
+		    <li>
+		      <a href="">≡</a>
+		      <ul class="sub">
+		        <li><a href="butikken.html">På matbutikken</a></li>
+		        <li><a href="kjokkenet.html">På kjøkkenet</a</li>
+		        <li><a href="ellers.html">Ellers</a></li>
+		        <li><a href="oppskrifter.html">Oppskrifter</a></li>
+		        <li><a href="forfatteren.html">Forfatteren</a></li>
+		      </ul>
+		    </li>
+		  </ul>
+		</nav>
+		</div>
+	</header>
+	<main>
+		<br>
+		<br>
+		<br>
+		<div class="butikkslideshow">
+				<img class="mySlides" src="bilder/butikk2.png" onclick="plusDivs(+1)">
+				<img class="mySlides" src="bilder/butikk1.png" onclick="plusDivs(+1)">
+				<a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
+				<a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+		</div>
+		<div class="butikk">
+			<h1>På matbutikken</h1>
+			<div class="tips">
+				<h2>Tips og råd</h2>
+				<ol>
+					<li>
+						Lær deg å si nei
+					</li>
+					<p>
+						Å handle på impuls kan være en fryktelig ødeleggende faktor for budsjettet. Lær deg å spørre deg selv: <i>Trenger jeg virkelig den sjokoladen?</i> Eller ukebladet, grandisen, godteriet, og andre ting du ikke har råd til, men du likevel kjøper fordi du har så lyst der og da. 
+					</p>
+					<li>
+						Hold handelen til én gang i uka
+					</li>
+					<p>
+						For å hindre deg selv i å bruke mye penger på varer du ikke har planlagt å kjøpe, er det lurt å storhandle én gang i uka. Planlegg på søndagen hva du trenger til å lage diverse middager og hva du vanligvis bruker mye av. Ikke glem å regne med håndsåpe, brødposer, kaffe og lignende man ofte må ut og handle fordi man er tom. 
+					</p>
+					<li>
+						Se etter tilbud
+					</li>
+					<p>
+						Det er lov å kjøpe ting på impuls hvis du vet du kommer til å spare penger på det på lang sikt. For eksempel: Når Spar har 10-kronersmarked, tar jeg alltid turen innom og fyller opp med kaffe, pålegg, hermetikk og sauser. Det koster kanskje litt der og da, men dette vil lønne seg på lenger sikt, hvis det uansett er varer du bruker jevnlig. 
+					</p>
+					<li>
+						Se på kilopris
+					</li>
+					<p>
+						Ofte prøver leverandører å lure deg til å kjøpe større partier enn du behøver for en høyere pris. Derfor er det viktig å se på kiloprisen før du kjøper noe. Det gjelder også andre veien. Koster det mindre per kilo for et større parti, så kjøp heller det! 
+					</p>
+				</ol>
+			</div>
+			<div class="produkter">
+				<h2>Anbefalte produkter</h2>
+				<ul>
+					<li>
+						Bytt ut ris med couscous
+					</li>
+					<p>
+						Ikke bare er det sunnere, men det er også godt å variere litt med smaker og tilbehør. Du trenger ikke nødvendigvis å erstatte alle risretter med couscous, men å bruke couscous ved siden av kylling/fisk og i gryteretter er faktisk utrolig godt. Dessuten koster det ikke mer enn 7 kr for en boks med couscous på Coop. 
+					</p>
+					<li>
+						Bytt ut ferske bær med fryste
+					</li>
+					<p>
+						Bruker du bær i smoothier og lignende kan du like godt bruke frosne bær som ferske. De er akkurat like sunne og gode!
+					</p>
+					<li>Bytt ut kjøttdeig med bønner</li>
+					<p>En hermetikkboks med bønner koster ikke mer enn 5 kr om du handler på riktig butikk, og er utrolig mye sunnere enn kjøttdeig. Du kan bruke det i gryteretter, spagettisauser og til og med i taco. Å steke bønner og krydre det med tacokrydder er faktisk veldig godt!</p>
+				</ul>
+			</div>
+		</div>
+	
+	</main>
+	<script type="text/javascript">
+    var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	    showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	    var i;
+	    var x = document.getElementsByClassName("mySlides");
+	    if (n > x.length) {slideIndex = 1} 
+	    if (n < 1) {slideIndex = x.length} ;
+	    for (i = 0; i < x.length; i++) {
+	        x[i].style.display = "none"; 
+	    }
+	    x[slideIndex-1].style.display = "block"; 
+	}
+</script>
+</body>
+</html>

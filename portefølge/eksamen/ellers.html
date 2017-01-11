@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StudentGuiden</title>
+	<meta charset="utf-8">
+    <link href="css.css" rel="stylesheet" type="text/css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<h2><a href="index.html">StudentGuiden</h2></a>
+		<div class="header">
+			<a href="butikken.html">På matbutikken</a>
+			<a href="kjokkenet.html">På kjøkkenet</a>
+			<a href="ellers.html">Ellers</a>
+			<a href="oppskrifter.html">Oppskrifter</a>
+			<a href="forfatteren.html">Forfatteren</a>
+		</div>
+		<div class="wrap">
+		<span class="decor"></span>
+		<nav>
+		  <ul class="primary">
+		    <li>
+		      <a href="">≡</a>
+		      <ul class="sub">
+		        <li><a href="butikken.html">På matbutikken</a></li>
+		        <li><a href="kjokkenet.html">På kjøkkenet</a</li>
+		        <li><a href="ellers.html">Ellers</a></li>
+		        <li><a href="oppskrifter.html">Oppskrifter</a></li>
+		        <li><a href="forfatteren.html">Forfatteren</a></li>
+		      </ul>
+		    </li>
+		  </ul>
+		</nav>
+		</div>
+	</header>
+	<main>
+		<br>
+		<br>
+		<br>
+		<div class="butikkslideshow">
+				<img class="mySlides" src="bilder/ellers1.jpg" onclick="plusDivs(+1)">
+				<img class="mySlides" src="bilder/ellers2.jpg" onclick="plusDivs(+1)">
+
+				<a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
+				<a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+		</div>
+		<div class="butikk">
+			<h1>Ellers</h1>
+			<div class="tips">
+				<h2>Tips og råd</h2>
+				<ol>
+					<li>
+						Sett opp budsjett
+					</li>
+					<p>
+						Og hold deg til det! På denne måten er det lettere å holde oversikt over hva du faktisk bruker penger på. Sett av et par dager i uka og før inn hva du bruker penger på, og se hvordan du ligger an i forhold til budsjettet. 
+					</p>
+					<li>
+						Betal bensin med Mastercard
+					</li>
+					<p>
+						Veldig mange banker tilbyr spesielle MasterCard som gir deg rabatt på bensinstasjoner. Slik kan du spare litt penger for hver gang du fyller bensin.
+						<br><b>NB!</b> Gjelder bare for de som klarer å betale tilbake gjelden med én gang!
+					</p>
+					<li>
+						Ta vare på kuponger
+					</li>
+					<p>Hvert fall de du tror du kan få bruk for! Her kan det være mye penger å spare, så lenge du ikke bruker kupongkort på ting du i utgangspunktet ikke hadde kjøpt til fullpris.</p>
+					<li>
+						Bli medlem i butikker og organisasjoner
+					</li>
+					<p>
+						Bli hvert fall Trumf-medlem! Alle butikker og organisasjoner som har gratis medlemskap, og som du vet du kommer til å handle i ved senere anledninger, er det ingen skade å melde seg inn i.
+					</p>
+
+				</ol>
+			</div>
+		</div>
+	
+	</main>
+	<script type="text/javascript">
+    var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	    showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	    var i;
+	    var x = document.getElementsByClassName("mySlides");
+	    if (n > x.length) {slideIndex = 1} 
+	    if (n < 1) {slideIndex = x.length} ;
+	    for (i = 0; i < x.length; i++) {
+	        x[i].style.display = "none"; 
+	    }
+	    x[slideIndex-1].style.display = "block"; 
+	}
+</script>
+</body>
+</html>

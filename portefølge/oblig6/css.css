@@ -1,0 +1,146 @@
+body {
+	font-family: 'Open Sans', sans-serif; 
+	background: #f1f1f1;
+}
+
+#boks {
+	width: 60%;
+	background: white;
+	border-radius: 15px 15px 15px 15px;
+	height: 95vh;
+	margin-left: 20%;
+	margin-right: 20%;
+	position: fixed;
+	padding-left: 20px;
+	overflow: auto;
+	padding-bottom: 20px;
+	color: #777;
+}
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+#tekstfelt {
+	float: left;
+	width: 17%;
+	margin-left: 30px;
+	margin-top: 200px;
+	height: 90vh;
+  text-align: center;
+  position: fixed;
+  overflow: hidden;
+  color: #aaa;
+  z-index: 1;
+
+}
+
+#tekstfelt h1 {
+	font-weight: 200;
+}
+
+#boks img {
+	width: 98%;
+	margin-top: 20px;
+
+}
+
+#boks h1 {
+	font-weight: 200;
+	color: #777;
+	text-align: center;
+}
+
+#kilder {
+	float: right;
+	margin-right: 10px;
+	margin-top: 90vh;
+	color: #aaa;
+	overflow: scroll;
+	height: 88px;
+	width: 300px;
+}
+
+#kilder h3, h2 {
+	font-weight: 200;
+}
+
+#kilder h3 {
+	font-size: 11px;
+}
+
+#kilder h2 {
+	font-size: 15px;
+}
+
+
+
+.mobile-nav {
+	position: relative;
+	float: left;
+	z-index: 2;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.menu-btn div {
+ position: absolute;
+ left: 100%;
+ top: 64%;
+ padding-right: 8px;
+ line-height: 1.2;
+ font-size: 18px;
+ font-weight: 200;
+ vertical-align: middle;
+ z-index: 99;
+}
+ 
+.menu-btn span {
+ display: block;
+ width: 19px;
+ height: 3px;
+ margin: 4px 0;
+ background: #aaa;
+ z-index: 99;
+}
+ 
+.responsive-menu{
+ display: none;
+}
+ 
+.expand {
+ display: block !important; 
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #aaa;
+}
+
+.footerting {
+	border-top: 1px dotted #aaa;
+	width: 50%;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 30px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+
+h4 {
+	font-size: 35px;
+	position: fixed;
+	color: #aaa;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+

@@ -1,0 +1,855 @@
+body {
+	background-color: #F3EDDD;
+}
+
+
+/* -------------- Header -------------------- */
+
+header {
+	font-family: open sans;
+	font-weight: 300;
+	background-color: #412732;
+	color: #F3EDDD;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	margin-top: -20px;
+	z-index: 10;
+
+	margin-left: -8px;
+}
+
+header h2 {
+	font-size: 40px;
+	float: left;
+	margin-left: 50px;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+header h2 a {
+	text-decoration: none;
+	color: #F3EDDD;
+}
+
+.header a {
+	text-decoration: none;
+	color: #F3EDDD;
+	margin-right: 40px;
+	font-size: 20px;
+}
+
+.header a:hover {
+	opacity: 0.5;
+}
+
+.header {
+	width: 50%;
+	float: right;
+	margin-top: 25px;
+	text-align: right;
+}
+
+
+
+
+
+/* -------- Main ------------ */
+
+/*Boks*/
+
+.boks {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	border: 1px solid #BEA18F;
+	padding: 20px;
+	margin-top: 50px;
+	text-align: center;
+	position: absolute;
+	margin-left: 33.5%;
+}
+
+.boks h2 {
+	color: #583E3D;
+	font-weight: 300;
+	font-size: 30px;
+	border-bottom: 1px solid #583E3D;
+	padding-bottom: 5px;
+}
+
+.boks p {
+	font-size: 20px;
+	text-align: left;
+}
+
+
+/*Bilder*/
+
+#bilde1 {
+	float: left;
+	border: 1px solid #BEA18F;
+	width: 100%;
+}
+
+#bilde2 {
+	float: right;
+	border: 1px solid #BEA18F;
+	width: 100%;
+}
+
+.hoyre {
+	float: right;
+	width: 30%;
+	padding-right: 1%;
+	padding-top: 1%;
+}
+
+.venstre {
+	float: left;
+	width: 30%;
+	padding-left: 1%;
+	padding-top: 1%;
+}
+
+
+
+
+/* --------- Forfatteren ------- */
+
+.forfatter {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+}
+
+.forfatter .bilde{
+	width: 40%;
+	float: right;
+}
+
+.tekst {
+	width: 50%;
+	border: 1px solid #BEA18F;
+	padding: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.tekst h1 {
+	color: #583E3D;
+	font-weight: 300;
+	font-size: 30px;
+	border-bottom: 1px solid #583E3D;
+	padding-bottom: 5px;
+}
+
+.tekst p {
+	font-size: 20px;
+	text-align: left;
+}
+
+.forfatter .ikon {
+	width: 50px;
+	margin: 5px;
+}
+
+
+/* -------- På butikken --------- */
+
+.butikk {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.butikk h1 {
+	color: #583E3D;
+	font-weight: 300;
+	font-size: 40px;
+}
+
+
+.tips, .produkter {
+	width: 40%;
+	border: 1px solid #BEA18F;
+	padding: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.tips h2 , .produkter h2{
+	color: #583E3D;
+	font-weight: 300;
+	font-size: 30px;
+	border-bottom: 1px solid #583E3D;
+	padding-bottom: 5px;
+}
+
+.tips p , .produkter p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.tips ol {
+	text-align: left;
+	font-size: 22px;
+}
+
+.produkter ul {
+	text-align: left;
+	font-size: 22px;
+	list-style-type: circle;
+}
+
+.produkter {
+	margin-bottom: 50px;
+}
+
+.tips ol li {
+	margin-top: 40px;
+}
+
+.butikkslideshow {
+	width: 600px;
+	margin-left: 52%;
+	position: fixed;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.butikkslideshow img {
+		cursor: pointer;
+		width: 600px;
+}
+
+
+/* ------------- Oppskrifter --------- */
+
+.oppskrifter {
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+	border: 1px solid #BEA18F;
+	padding: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.oppskrifter h2{
+	color: #583E3D;
+	font-weight: 300;
+	font-size: 30px;
+	border-bottom: 1px solid #583E3D;
+	padding-bottom: 5px;
+}
+
+.oppskrifter a {	
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.oppskrifter a:hover {
+	text-decoration: underline;
+}
+
+.oppskrifter p {
+	margin-top: 25px;
+}
+
+
+
+/* -------- Oppskrift ------------ */
+
+.ingredienser, .pris, .fremgangsmate, .andre5, .andre1, .andre2, .andre3, .andre4, .sidetips1, .sidetips2, .sidetips3, .sidetips4, .sidetips5{	
+	border: 1px solid #BEA18F;
+	padding: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+.ingredienser h2, .pris h2, .fremgangsmate  h2, .andre5 h2, .andre1 h2 , .andre2 h2, .andre3 h2, .andre4 h2, .sidetips1 h2, .sidetips2 h2, .sidetips3 h2, .sidetips4 h2, .sidetips5 h2 {
+	color: #583E3D;
+	font-weight: 300;
+	font-size: 30px;
+	border-bottom: 1px solid #583E3D;
+	padding-bottom: 5px;
+}
+
+.ingredienser {
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+}
+
+.fremgangsmate {
+	width: 45%;
+	margin-left: 25%;
+	position: absolute;
+}
+
+.fremgangsmate a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.pris {
+	width: 17%;
+	position: absolute;
+	margin-left: 75%;
+}
+
+.oppskrift h1 {
+	color: #583E3D;
+	font-weight: 300;
+	font-size: 40px;
+	padding-bottom: 5px;
+	margin-left: 15%;
+}
+
+.oppskrift li {
+	text-align: left;
+	font-size: 20px;
+	padding-bottom: 10px;
+	list-style-type: circle;
+} 
+
+.andre1 {
+	width: 15%;
+	margin-left: 5%;
+	position: absolute;
+	margin-top: 950px;
+	margin-bottom: 50px;
+}
+
+.andre1 a {	
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.andre1 a:hover {
+	text-decoration: line-through;
+}
+
+.andre2 {
+	width: 15%;
+	margin-left: 5%;
+	position: absolute;
+	margin-top: 850px;
+	margin-bottom: 50px;
+}
+
+.andre2 a {	
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.andre2 a:hover {
+	text-decoration: line-through;
+}
+
+.andre3 {
+	width: 15%;
+	margin-left: 5%;
+	position: absolute;
+	margin-top: 860px;
+	margin-bottom: 50px;
+}
+
+.andre3 a {	
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.andre3 a:hover {
+	text-decoration: line-through;
+
+}
+
+.andre4 {
+	width: 15%;
+	margin-left: 5%;
+	position: absolute;
+	margin-top: 830px;
+	margin-bottom: 50px;
+}
+
+.andre4 a {	
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.andre4 a:hover {
+	text-decoration: line-through;
+}
+
+.andre5 {
+	width: 15%;
+	margin-left: 5%;
+	position: absolute;
+	margin-top: 940px;
+	margin-bottom: 50px;
+}
+
+.andre5 a {	
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.andre5 a:hover {
+	text-decoration: line-through;
+}
+
+.sidetips1 {
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 390px;
+}
+
+.sidetips2 {
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 480px;
+}
+
+.sidetips3 {
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 520px;
+}
+
+.sidetips4 {
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 390px;
+}
+
+.sidetips5 {
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 420px;
+}
+
+.slideshow {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	position: relative;
+	margin-top: 500px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.slideshow img {
+	width: 700px;
+	cursor: pointer;
+}
+
+.slideshow a, .butikkslideshow a {
+	font-size: 35px;
+	margin-left: 100px;
+	margin-right: 100px;
+	cursor: pointer;
+	color: #8C7470;
+}
+
+.pris table {
+	font-size: 18px; 
+	text-align: left;
+}
+
+.pris table .info {
+	width: 40%;
+}
+
+.pris table .kr {
+	width: 29%;
+}
+
+.pris td, .pris th{
+	padding-top: 10px;
+	border-bottom: 1px solid #BEA18F;
+}
+
+.pris th {
+	font-size: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+.wrap {
+	visibility: hidden;
+}
+
+
+
+
+
+@media only screen and (max-width: 1510px) {
+    .header a {
+    	font-size: 18px;
+    }
+
+
+    /* ----- Oppskrifter ------ */
+
+	.ingredienser, .fremgangsmate, .pris, .andre1, .andre2, .andre3, .andre4, .sidetips1, .sidetips2, .sidetips3, .sidetips4, .sidetips5 {
+		width: 80%;
+		margin-left: 5%;
+		position: relative;
+		margin-top: 30px;
+	}
+
+	.slideshow img {
+		width: 100%;
+	}
+
+	.slideshow {
+		width: 60%;
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+    .header a {
+    	visibility: hidden;
+    }
+
+    /* ------- Index ------- */
+
+    #bilde1 {
+    	visibility: hidden;
+    }
+
+    #bilde2 {
+    	margin-top: 40px;
+    	margin-right: 20%;
+    }
+
+    .boks {
+    	width: 45%;
+    	margin-left: 10%;
+    }
+
+
+
+    /* -------- Tips -------- */
+
+    .butikkslideshow {
+		width: 500px;
+	}
+
+	.butikkslideshow img {
+		width: 500px;
+	}
+
+
+	/* -------- Oppskrifter --------- */
+
+	.slideshow {
+		margin-left: auto;
+		margin-right: auto;
+		width: 500px;
+		position: relative;
+		margin-top: 500px;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.slideshow img {
+		width: 500px;
+		cursor: pointer;
+	}
+
+
+
+	/* -------- Forfatteren -------- */
+
+	.forfatter {
+		width: 90%;
+	}
+
+
+
+    /* Meny */
+
+	 
+	.wrap {
+		visibility: visible;
+	  display: inline-block;
+	  float: right;
+	  position: absolute;
+	  right: 20px;
+	}
+
+	/* a little "umph" */
+	.decor {
+	  padding: 2px;
+	  display: block;
+	}
+
+	.wrap a {
+	  text-decoration: none;
+	  color: #F3EDDD;
+	  display: block;
+
+	}
+
+	.wrap ul {
+	  list-style: none;
+	  position: relative;
+	  text-align: left;
+	}
+
+	
+
+	/* clear'n floats */
+	.wrap ul:after {
+	  clear: both;
+	}
+
+	.wrap ul:before,
+	.wrap ul:after {
+	    content: " ";
+	    display: table;
+	}
+
+	nav {
+	  position: relative;
+	  text-align: center;
+	}
+
+	/* prime */
+	ul.primary li a {
+	  display: block;
+	  padding: 15px 25px;
+	}
+
+	ul.primary li a:hover {
+	  
+	  color: #000;
+	}
+
+	/* subs */
+	ul.sub {
+	  position: absolute;
+	  z-index: 200;
+	  display:none;
+	  border: 1px solid #BEA18F;
+	  margin-left: -140px;
+	}
+
+	ul.sub li {
+	  float: none;
+	  margin: 0;
+	  margin-left: -30px;
+	}
+
+	ul.sub li a {
+	  border-bottom: 1px solid #BEA18F;
+	  border-right: none;
+	  color: #000;
+	}
+
+	ul.sub li:last-child a {
+	  border-bottom: none;
+	}
+
+	ul.sub li a:hover {
+	  color: #000;
+	  background: #eeeeee;
+	}
+
+	/* sub display*/
+	ul.primary li:hover ul {
+	  display: block;
+	  background: #F3EDDD;
+	  width: 170px;
+	}
+
+	/* keeps the tab background white */
+	ul.primary li:hover a {
+	  background: #F3EDDD;
+	  color: #666;
+	  text-shadow: none;
+	}
+
+	ul.primary li:hover > a{
+	  color: #000;
+	} 
+
+	.primary > li {
+		font-size: 40px;
+		font-weight: bold;
+		margin-top: -25px;
+
+	}
+
+	.sub li {
+		font-size: 18px;
+		font-weight: 300;
+	}
+
+
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+.wrap {
+	  margin-left: 55%;
+	}
+
+
+	/* ------ Index ----- */
+
+	#bilde2 {
+    	margin-top: 40px;
+    	margin-right: 10%;
+    }
+
+    .hoyre {
+		float: right;
+		width: 38%;
+	}
+
+    .boks {
+    	width: 45%;
+    	margin-left: 5%;
+    }
+
+
+
+    /* ------- Tips ------ */
+
+    .butikk {
+    	width: 90%;
+    }
+
+    .butikkslideshow {
+    	width: 400px;
+    }
+
+    .butikkslideshow img {
+    	width: 400px;
+    }
+
+    .butikkslideshow a{
+    	font-size: 30px;
+    	margin-left: 50px;
+    	margin-right: 50px;
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+	.wrap {
+		margin-left: 45%;
+	}
+
+	/* ----- Index ----- */
+
+	#bilde2 {
+		visibility: hidden;
+	}
+
+	.boks {
+		width: 80%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+
+	/* ----- Tips ---- */
+
+	.butikkslideshow {
+		width: 350px;
+	}
+
+	.butikkslideshow img {
+		width: 350px;
+	}
+
+
+}
+
+@media only screen and (max-width: 830px) {
+	.wrap {
+		margin-left: 35%;
+	}
+
+	/* -- Tips -- */
+
+	.butikkslideshow {
+		visibility: hidden;
+	}
+
+	.tips, .produkter {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* -- Forfatteren -- */
+
+	.forfatter img {
+		visibility: hidden;
+	}
+
+	.tekst {
+		width: 90%;
+	}
+
+	/* -- Oppskrifter --*/
+
+	.slideshow a {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 690px) {
+	.wrap {
+		margin-left: 25%;
+	}
+
+	.oppskrifter {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 610px) {
+	.wrap {
+		margin-left: 15%;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.wrap {
+		margin-left: 6%;
+	}
+}

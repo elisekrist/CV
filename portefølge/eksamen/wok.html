@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Studentguiden</title>
+	<meta charset="utf-8">
+    <link href="css.css" rel="stylesheet" type="text/css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<header>
+		<h2><a href="index.html">StudentGuiden</h2></a>
+		<div class="header">
+			<a href="butikken.html">På matbutikken</a>
+			<a href="kjokkenet.html">På kjøkkenet</a>
+			<a href="ellers.html">Ellers</a>
+			<a href="oppskrifter.html">Oppskrifter</a>
+			<a href="forfatteren.html">Forfatteren</a>
+		</div>
+		<div class="wrap">
+		<span class="decor"></span>
+		<nav>
+		  <ul class="primary">
+		    <li>
+		      <a href="">≡</a>
+		      <ul class="sub">
+		        <li><a href="butikken.html">På matbutikken</a></li>
+		        <li><a href="kjokkenet.html">På kjøkkenet</a</li>
+		        <li><a href="ellers.html">Ellers</a></li>
+		        <li><a href="oppskrifter.html">Oppskrifter</a></li>
+		        <li><a href="forfatteren.html">Forfatteren</a></li>
+		      </ul>
+		    </li>
+		  </ul>
+		</nav>
+		</div>
+	</header>
+	<main>
+		<br>
+		<br>
+		<br>
+		<div class="oppskrift">
+			<h1>Enkel wok</h1>
+			<div class="ingredienser">
+				<h2>Det du trenger:</h2>
+				<ul>
+					<li>Frosne grønnsaker</li>
+					<li>Kyllingfilet</li>
+					<li>Valgfri saus</li>
+					<li>Ris</li>
+				</ul>
+			</div>
+			<div class="fremgangsmate">
+				<h2>Framgangsmåte</h2>
+				<ol>
+					<li>Tin en frossen kyllingfilet, enten ved å legge den i kjøleskapet dagen før, eller med defrost i mikrobølgeovnen.</li>
+					<li>Kok opp ris.</li>
+					<li>Mens risen koker, stek kyllingen.</li>
+					<li>Hell oppi de frosne grønnsakene</li>
+					<li>Bland inn sausen og risen</li>
+					<li>Server</li>
+				</ol>
+			</div>
+			<div class="pris">
+				<h2>Måltidets kostnader</h2>
+				<table>
+					  <tr>
+					    <th>Vare</th>
+					    <th>Pris</th> 
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <td>Frosne grønnsaker</td>
+					    <td class="kr">17,5 kr</td> 
+					    <td class="info">Kjøpt på tilbud, 2 for 35 kr</td>
+					  </tr>
+					  <tr>
+					    <td>Kyllingfilet</td>
+					    <td class="kr">20,7 kr</td> 
+					    <td class="info">Kjøpt i pakning på 12 kyllingfileter for 248,40 kr</td>
+					  </tr>
+					  <tr>
+					    <td>Saus</td>
+					    <td class="kr">10 kr</td> 
+					    <td class="info">Kjøp på tilbud, 10-kronersmarked på Spar</td>
+					  </tr>
+					  <tr>
+					    <td>Ris</td>
+					    <td class="kr">2,5 kr</td> 
+					    <td class="info">Kjøp på tilbud, 8-pakning for 20 kr</td>
+					  </tr>
+					  <tr>
+					    <th>Sum</td>
+					    <th class="kr">25,35</th> 
+					    <td class="info">Fullpris er 50,7, men holder som regel for to dager. Derfor 25,35 per dag</td>
+					  </tr>
+					</table>
+			</div>
+			<div class="sidetips1">
+				<h2>Tips:</h2>
+				<ul>
+					<li>
+						Se opp for tilbud! Har du en Spar-butikk i nærheten? De selger ofte Blue Dragon-sausene sine for 10 kr per stykk. De finnes i mange ulike smaker, så du ikke blir lei så fort. 
+					</li>
+					<li>
+						Burde holde til to dager. Det kan bli middag senere i uken, eller lunsj på skolen dagen etter.
+					</li>
+					<li>
+						Risen kan erstattes med couscous om du vil prøve noe nytt. 
+					</li>
+				</ul>
+			</div>
+			<div class="andre1">
+				<h2>Andre oppskrifter:</h2>
+					<p><a href="wok.html">Enkel Wok</a></p>
+				<p><a href="kylling.html">Tandorikrydret kylling</a></p>
+				<p><a href="laks.html">Sitroninntrukket laks</a></p>
+				<p><a href="couscous.html">Verdens beste couscous</a></p>
+				<p><a href="spaghetti.html">Billig spagettirett</a></p>
+			</div>
+			<div class="slideshow">
+				<div class="en">
+					<img class="mySlides" onclick="plusDivs(+1)" src="bilder/wok1.png">
+					<img class="mySlides" onclick="plusDivs(+1)" src="bilder/wok2.png">
+					<img class="mySlides" onclick="plusDivs(+1)" src="bilder/wok3.png">
+					<a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
+					<a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script type="text/javascript">
+    var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	    showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	    var i;
+	    var x = document.getElementsByClassName("mySlides");
+	    if (n > x.length) {slideIndex = 1} 
+	    if (n < 1) {slideIndex = x.length} ;
+	    for (i = 0; i < x.length; i++) {
+	        x[i].style.display = "none"; 
+	    }
+	    x[slideIndex-1].style.display = "block"; 
+	}
+</script>
+</body>
+</html>

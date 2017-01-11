@@ -1,0 +1,877 @@
+/*
+Farger: 
+
+Blå: #36384c;
+Rød: #613a43;
+Rosa: #e3bab3;
+Gul: #e9dccd;
+
+
+
+*/
+
+body {
+    font-family:  'Open Sans', sans-serif;
+    margin:0;
+    background-color: #36384c; 
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #36384c;
+}
+
+a:hover {
+    color: rgba(54,56,76,0.7);
+}
+
+/* ---------------- Header ---------------- */
+
+header {
+    margin: 30px auto auto auto;
+    width: 60%;
+    height: 220px;
+    background-color: #e9dccd;
+
+    border: 1px solid #e9dccd;
+    border-radius: 9px 9px 9px 9px;
+}
+
+header figure {
+    margin:1%;
+    float:left;
+}
+
+header h2 {
+    text-align:center;
+    font-weight: 300;
+    color: #36384c;
+}
+
+header td {
+    width:100%;
+    padding:0 20px;
+}
+
+header form {
+    margin: 5% 5% 5% 0;
+}
+
+header form p {
+    margin:5%;
+    text-align:center;
+}
+
+header input {
+    width:130px;
+}
+
+#userPane {
+    margin: 7% 5% 3% 0;
+}
+
+header h1 {
+    color: #36384c;
+    font-weight: 300;
+}
+
+
+
+
+/* ---------------- Main og Forsiden ---------------- */
+main {
+    width: 60%;
+    margin: 30px auto auto auto;
+    background-color: #e9dccd;
+
+    border: 1px solid #e9dccd;
+    border-radius: 9px;
+
+    letter-spacing: 0.085em;
+    overflow: auto;
+}
+
+main h2 {
+    margin: 2%;
+    border-bottom: 2px dashed #e3bab3;
+    color: #36384c;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+main h3 {
+    font-weight: 500;
+}
+
+main h4 {
+    padding: 0% 2% 2% 2%;
+    font-weight: 300;
+}
+
+main .category .article p {
+    margin: 2%;
+    font-size: 90%;
+    font-weight: 500;
+    margin-left: 5%;
+}
+
+main .category .article {
+    margin: 1%;
+    overflow:hidden;
+}
+
+main section{
+    margin:1%;
+    width:70%;
+    float:left;
+}
+
+main .category h3 {
+    margin-bottom: 10px;
+}
+
+.category {
+    margin-bottom: 80px;
+}
+
+main aside { 
+    margin:1%;
+    float: right;
+    margin-top: -90px;
+    width: 30%;
+
+}
+
+.field {
+    margin: 2% 50% 2% 2%;
+}
+
+ /*Kode som får ikonene til å snurre og endre form når man holder over dem. 
+ Rett nedenfor deklareres hastigheten, og enda lenger ned (under :hover) 
+ gjøres boksene om til sirkler og får dem til å rotere 360 grader. */
+
+.iconImg {
+    width:50px;
+    border-radius:10px;
+    background-color: #613a43;
+    padding: 4px;
+      -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.iconImg:hover {
+    border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+
+
+main .category input {
+    float:right;
+    border: 1px solid #e3bab3;
+    padding: 3px;
+}
+
+main input:focus {
+    outline: 0;
+}
+
+main input:hover {
+    border: 1px solid #e3bab3;
+}
+
+.bottom {
+    height: 30px;
+}
+
+
+
+
+/* ---------- Knapper ------------- 
+
+De forskjellige knappene må ha samme design, men må kunne endres induviduelt 
+hvis det er nødvendig. Derfor har ikke alle samme klasse */
+#login {
+    margin: 2% 2% 2% 2%;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #613a43;
+    color: #e9dccd;
+    border: 2px solid #e3bab3;
+    border-radius: 2px;  
+    margin-bottom: 10px;
+}
+
+#submit, #reply, .post, .submit {
+    margin: 2% 2% 2% 2%;
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #613a43;
+    color: #e9dccd;
+    border: 2px solid #e3bab3;
+    border-radius: 2px;
+}
+
+#login:focus, #logOut:focus, #submit:focus, #createUser:focus, #reply:focus, .post:focus, .submit:focus{
+    outline: 0;
+}
+
+#login:hover, #logOut:hover, #submit:hover, #createUser:hover, #reply:hover, .post:hover, .submit:focus{
+    background-color: rgba(97, 58, 67, 0.8);
+}
+
+#logOut, #createUser {
+
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #613a43;
+    color: #e9dccd;
+    border: 2px solid #e3bab3;
+    border-radius: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: 2px;
+    overflow: auto;
+}
+
+
+/* ---------------- Footer ---------------- */
+
+footer {
+    width: 60%;
+    height: auto;
+    margin: 30px auto;
+    background-color: #e9dccd;
+
+    border: 1px solid #e9dccd;
+    border-radius: 9px;
+
+    letter-spacing: 0.085em;
+}
+
+footer div {
+    margin: 1%;
+}
+
+.footer {
+    text-align: center;
+}
+
+.bottomFooter {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.leftFooter {
+    float:left;
+    width: 45%;
+    margin-left: 2.5%;
+ }
+.rightFooter {
+    float:right;
+    width: 45%;
+    text-align:right;
+    margin-right: 2.5%;
+}
+
+
+
+
+
+
+/* ------------- Kategori ----------------- */
+
+
+th {
+    font-weight: 300;
+}
+
+.category h3{ 
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+.cat-forum table {
+    margin: 40px;
+    border: 1px solid #613a43;
+    width: 90%;
+    margin: 5%;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+
+.cat-forum .last {
+    width: 15%;
+}
+
+.cat-forum .date {
+    width: 15%;
+}
+
+.cat-forum td {
+    padding: 15px;
+}
+.cat-forum th {
+    padding: 15px;
+    border-bottom: 1px solid #e3bab3;
+}
+
+.desc1 {
+    margin-left: 2%;
+}
+
+.desc1, .desc2 {
+    padding: 5px;
+}
+
+
+
+
+/* ---- Subkategori ---- */
+
+.forum table {
+    margin: 40px;
+    border: 1px solid #613a43;
+    width: 90%;
+    margin: 5%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.forum .last {
+    width: 15%;
+}
+
+.date {
+    width: 15%;
+}
+
+.forum td {
+    padding: 15px;
+}
+.forum th {
+    padding: 15px;
+    border-bottom: 1px solid #e3bab3;
+}
+
+.nthread {
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #613a43;
+    color: #e9dccd;
+    border: 2px solid #e3bab3;
+    border-radius: 2px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.nthread:focus{
+    outline: 0;
+}
+
+.nthread:focus{
+    background-color: rgba(97, 58, 67, 0.8);
+}
+
+#newthread {
+    margin: 30px;
+}
+
+#newthread input{
+    border: 1px solid #e3bab3;
+    margin: 10px;
+    width: 200px;
+}
+
+#newthread #submit {
+margin-left: 0; 
+}
+
+#newthread textarea {
+    float: left;
+    height: 250px;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #e3bab3;
+}
+
+.category p {
+    margin-left: 2%;
+}
+
+.subcategory p {
+    margin-left: 5%;
+}
+
+
+
+
+/* ----- Thread ------ */
+/*Dette er CSS for inne der hvor man poster sine forumposter. Derfor "forumpostersiden" */
+
+.forumpostersiden .threadDate {
+    text-align: right;
+}
+
+.forumpostersiden .threadDate, .threadUser {
+    width: 20%;
+}
+
+.forumpostersiden td {
+    padding: 10px;
+    background-color: #F1E9E0;
+}
+
+.forumpostersiden .threadUser {
+    height: 20px;
+    text-align: center;
+}
+
+.forumpostersiden .threadUser img {
+    width: 80%;
+    margin: 10% 10% 0 10%;
+}
+
+.forumpostersiden h3 {
+    margin-top: 0;
+}
+
+.forumpostersiden table {
+    width: 90%;
+    margin: 30px 5%;
+    border: 1px solid #613a43;
+}
+
+.forumpostersiden button {
+    float: left;
+}
+
+.forumpostersiden textarea {
+    float: left;
+    height: 250px;
+    width: 80%;
+    margin-top: 4%;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #e3bab3;
+    margin-left: 2%;
+}
+
+#reply {
+    float: left;
+    margin-left: 5%;
+}
+
+#post {
+    float: left;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.pagestring {
+    float: right;
+    margin-right: 5%;
+    border: 1px solid #613a43;
+}
+
+.post {
+    margin-left: 5%;
+}
+
+
+
+
+
+
+/* ---- Settings ----- */
+
+.expands{
+ display: none;
+}
+
+.settings {
+    margin-bottom: 30px;
+}
+
+#settingsImage {
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+.settings p, .settings a {
+    margin-left: 25px;
+}
+
+#changeAvatar, #changePassword, #changeMail {
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.settings .change {
+    margin-left: 25px;
+}
+
+.settings input {
+    border: 1px solid #e3bab3;
+}
+
+
+
+
+
+
+/* -------- PM -------- */
+
+.messageForm form {
+    width: 90%;
+    margin: 2.5%;
+}
+
+.messageForm textarea {
+    height: 250px;
+    width: 100%;
+    margin-top: 4%;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid transparent;
+    border: 1px solid #e3bab3;
+    margin-left: 2%;
+}
+
+.messageForm p {
+    float: left;
+    margin-left: 2%;
+    margin-top: 22px;
+    height: 20px;
+}
+
+.messageForm #submit {
+    margin-left: 2%;
+}
+
+.messageForm form input {
+    float: left;
+    width: 200px;
+    border: 2px solid transparent;
+    border: 1px solid #e3bab3;
+    margin-left: 5%;
+    padding: 4px;
+}
+
+
+
+
+/* -------- PM brukere -------- */
+
+.membersTable {
+    margin: 5%;
+    width: 90%;
+}
+
+.membersTable th {
+    padding: 1% 5%;
+}
+
+.leftText {
+    text-align:left;
+}
+
+.rightText {
+    text-align:right;
+    width: 50px;
+}
+
+.membersTable td img {
+    width: 100px;
+    height: 100px;
+}
+
+.membersTable td {
+    border-top: 2px dashed #e3bab3;
+    padding: 0 5%;
+}
+
+
+
+
+
+/* --------- Ny bruker ----------- */
+
+
+#newUserForm #submit {
+    float: left;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+#newUserForm #message {
+    color: #613a43;
+    width: 50%;
+    float: left;
+    margin-top: -40px;
+    margin-left: 5%;
+}
+
+#newUserForm label{
+    float: left;
+    width: 170px;
+    margin-bottom: 5px;
+}
+
+#newUserForm input{
+    width: 200px;
+    border: 2px solid transparent;
+    border: 1px solid #e3bab3;
+    margin-left: 5%;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+
+#newUserForm .field {
+    float: left;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+#newUserForm .form {
+    margin-top: 60px;
+}
+
+
+/* -------------- Endre Post ---------------- */
+
+.editform input{
+    border: 2px solid transparent;
+    border: 1px solid #e3bab3;
+    margin-left: 5%;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+
+.editform textarea {
+    height: 250px;
+    margin-top: 4%;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid transparent;
+    border: 1px solid #e3bab3;
+    margin-left: 2%;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------- Smaller devices ---------------- */
+
+@media only screen and (max-width: 1200px) {
+    header, main, footer{
+        width: 80%;
+    }
+    .hideMedium {
+        display:none;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    .field {
+        margin: 2% 35% 2% 2%;
+    }
+    header td {
+        padding: 0 10px;
+    }
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .field {
+        margin: 2% 20% 2% 2%;
+    }
+    header h1 {
+        font-size: x-large;
+    }
+
+    header td {
+        padding: 0 5px;
+    }
+
+    header, main, footer{
+        width: 96%;
+        margin: 2%;
+    }
+
+
+
+    /*PM*/
+
+    #user {
+        display:none;
+    }
+
+
+    /*Settings*/
+
+    #settingsImage {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    /* Subkat */
+
+    .forum table {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .forum .last {
+        width: 25%;
+    }
+
+    .date {
+        width: 25%;
+    }
+
+
+    /* Kat */
+
+    .cat-forum table {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .cat-forum .last {
+        width: 25%;
+    }
+
+    .cat-forum .date {
+        width: 25%;
+    }
+    
+}
+
+@media only screen and (max-width: 520px) {
+    header img {
+        width: 75%;
+    }
+    #start {
+        display: none;
+        }
+
+
+    /* Subkat */
+
+    .forum .last {
+        width: 35%;
+    }
+
+    .date {
+        width: 35%;
+    }
+    .hideSmall {
+        display:none;
+    }
+        
+
+
+    /* Ny bruker */
+
+
+    #newUserForm #message {
+        color: #613a43;
+        width: 50%;
+        float: left;
+        margin-top: -40px;
+        margin-left: 5%;
+    }
+
+    #newUserForm label{
+        float: left;
+        width: 170px;
+        margin-bottom: 5px;
+    }
+
+    #newUserForm input{
+        width: 150px;
+        border: 2px solid transparent;
+        border: 1px solid #e3bab3;
+        margin-left: 5%;
+        padding: 4px;
+        margin-bottom: 5px;
+    }
+
+    #newUserForm .field {
+        float: left;
+        width: 360px;
+        margin-bottom: 5px;
+    }
+
+
+    /* Main */
+
+    main aside{
+        margin:1%;
+        float: right;
+        margin-top: 50px;
+        width: 55%;
+    }
+
+    main section {
+        width: 40%;
+    }
+
+}
+
+
+@media only screen and (max-width: 350px) {
+    header h1 {
+        font-size: large;
+    }
+
+    
+}
+
+@media only screen and (max-width: 300px) {
+        header h1 {
+            display: none;
+        }
+
+        header td {
+            padding: 0;
+        }
+    }

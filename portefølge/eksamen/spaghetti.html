@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StudentGuiden</title>
+	<meta charset="utf-8">
+    <link href="css.css" rel="stylesheet" type="text/css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<h2><a href="index.html">StudentGuiden</h2></a>
+		<div class="header">
+			<a href="butikken.html">På matbutikken</a>
+			<a href="kjokkenet.html">På kjøkkenet</a>
+			<a href="ellers.html">Ellers</a>
+			<a href="oppskrifter.html">Oppskrifter</a>
+			<a href="forfatteren.html">Forfatteren</a>
+		</div>
+		<div class="wrap">
+		<span class="decor"></span>
+		<nav>
+		  <ul class="primary">
+		    <li>
+		      <a href="">≡</a>
+		      <ul class="sub">
+		        <li><a href="butikken.html">På matbutikken</a></li>
+		        <li><a href="kjokkenet.html">På kjøkkenet</a</li>
+		        <li><a href="ellers.html">Ellers</a></li>
+		        <li><a href="oppskrifter.html">Oppskrifter</a></li>
+		        <li><a href="forfatteren.html">Forfatteren</a></li>
+		      </ul>
+		    </li>
+		  </ul>
+		</nav>
+		</div>
+	</header>
+	<main>
+		<br>
+		<br>
+		<br>
+		<div class="oppskrift">
+			<h1>Spaghetti</h1>
+			<div class="ingredienser">
+				<h2>Det du trenger:</h2>
+				<ul>
+					<li>Spaghetti</li>
+					<li>Bønner</li>
+					<li>Kikerter</li>
+					<li>Hakkede tomater</li>
+					<li>Salt og krydder</li>
+				</ul>
+			</div>
+			<div class="fremgangsmate">
+				<h2>Framgangsmåte</h2>
+				<ol>
+					<li>Kok spaghetti</li>
+					<li>Varm opp bønner, kikerter og hakkede tomater i en kjele</li>
+					<li>Salt og krydre til gryten smaker slik du ønsker</li>
+					<li>Sil spaghettien og legg i en skål</li>
+					<li>Hell gryten over spaghettien</li>
+					<li>Server</li>
+				</ol>
+			</div>
+			<div class="pris">
+				<h2>Måltidets kostnader</h2>
+				
+				<table>
+					  <tr>
+					    <th>Vare</th>
+					    <th>Pris</th> 
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <td>Fullkorns-spaghetti</td>
+					    <td class="kr">4,82 kr</td> 
+					    <td class="info">19,30 kr for en pakke</td>
+					  </tr>
+					  <tr>
+					    <td>Kidneybønner</td>
+					    <td class="kr">6,50 kr</td> 
+					    <td class="info"><br><br></td>
+					  </tr>
+					  <tr>
+					    <td>Kikerter</td>
+					    <td class="kr">5,20 kr</td> 
+					    <td class="info"><br><br></td>
+					  </tr>
+					  <tr>
+					    <td>Hakkede tomater</td>
+					    <td class="kr">3,40 kr</td> 
+					    <td class="info"><br><br></td>
+					  </tr>
+					  <tr>
+					    <th>Sum</td>
+					    <th class="kr">9,96 kr</th> 
+					    <td class="info">Måltidet holder for to dager, til sammen 19,92 kr. Prisen tar utgangspunkt i at du har krydder (20-30 kr) og salt (17,90 kr)</td>
+					  </tr>
+					</table>
+			</div>
+			<div class="sidetips5">
+				<h2>Tips:</h2>
+				<ul>
+					<li>
+						Kjøp bønner, kikerter og hakkede tomater hermetisk! Veldig billig og godt.
+					</li>
+					<li>
+						Tilsett gjerne andre ingredienser, som mais, løk og chili.
+					</li>
+					<li>
+						Denne oppskriften holder som regel for to posjoner. Legg i en boks i kjøleskapet og ta det fram til middag neste dag!  
+					</li>
+					<li>Kan også fungere som ren risrett.</li>
+				</ul>
+			</div>
+			
+			<div class="andre5">
+				<h2>Andre oppskrifter:</h2>
+				<p><a href="wok.html">Enkel Wok</a></p>
+				<p><a href="kylling.html">Tandorikrydret kylling</a></p>
+				<p><a href="laks.html">Sitroninntrukket laks</a></p>
+				<p><a href="couscous.html">Verdens beste couscous</a></p>
+				<p><a href="spaghetti.html">Billig spagettirett</a></p>
+			</div>
+			<div class="slideshow">
+				<div class="fire">
+					<img class="mySlides" src="bilder/spaghetti.png" onclick="plusDivs(+1)">
+					<img class="mySlides" onclick="plusDivs(+1)" src="bilder/spaghetti2.png">
+					<img class="mySlides" onclick="plusDivs(+1)" src="bilder/spaghetti3.png">
+					<a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
+					<a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script type="text/javascript">
+    var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	    showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	    var i;
+	    var x = document.getElementsByClassName("mySlides");
+	    if (n > x.length) {slideIndex = 1} 
+	    if (n < 1) {slideIndex = x.length} ;
+	    for (i = 0; i < x.length; i++) {
+	        x[i].style.display = "none"; 
+	    }
+	    x[slideIndex-1].style.display = "block"; 
+	}
+</script>
+</body>
+</html>

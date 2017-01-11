@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="973c1b62-356e-44ca-9f44-4c1af568479c" name="Project" url="http://db-kurs.hit.no">
+        <fileTransfer host="db-kurs.hit.no" port="22" rootFolder="/home/grupper/v16gr3d" accessType="SFTP" password="dfe1dfcbdfc1dfcbdf9bdf9adf9bdf9adf8b" username="131625">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

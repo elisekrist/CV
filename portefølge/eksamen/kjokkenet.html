@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StudentGuiden</title>
+	<meta charset="utf-8">
+    <link href="css.css" rel="stylesheet" type="text/css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<h2><a href="index.html">StudentGuiden</h2></a>
+		<div class="header">
+			<a href="butikken.html">På matbutikken</a>
+			<a href="kjokkenet.html">På kjøkkenet</a>
+			<a href="ellers.html">Ellers</a>
+			<a href="oppskrifter.html">Oppskrifter</a>
+			<a href="forfatteren.html">Forfatteren</a>
+		</div>
+		<div class="wrap">
+		<span class="decor"></span>
+		<nav>
+		  <ul class="primary">
+		    <li>
+		      <a href="">≡</a>
+		      <ul class="sub">
+		        <li><a href="butikken.html">På matbutikken</a></li>
+		        <li><a href="kjokkenet.html">På kjøkkenet</a</li>
+		        <li><a href="ellers.html">Ellers</a></li>
+		        <li><a href="oppskrifter.html">Oppskrifter</a></li>
+		        <li><a href="forfatteren.html">Forfatteren</a></li>
+		      </ul>
+		    </li>
+		  </ul>
+		</nav>
+		</div>
+	</header>
+	<main>
+		<br>
+		<br>
+		<br>
+		<div class="butikkslideshow">
+				<img class="mySlides" src="bilder/kjokken1.png" onclick="plusDivs(+1)">
+				<img class="mySlides" src="bilder/kjokken2.png" onclick="plusDivs(+1)">
+				<img class="mySlides" src="bilder/kjokken3.png" onclick="plusDivs(+1)">
+				<a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
+				<a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+		</div>
+		<div class="butikk">
+			<h1>På kjøkkenet</h1>
+			<div class="tips">
+				<h2>Tips og råd</h2>
+				<ol>
+					<li>
+						Forbered lunsj
+					</li>
+					<p>
+						En pengesluker kan fort vært kantinematen på skolen. Det er veldig lett å dra kortet, gjerne et par ganger om dagen, fordi du får lyst på noe godt i kantina. 
+						Forbered heller en god lunsj, som rundstykker, brødskiver, restemiddag eller en god salat. Det er som regel billigere enn kantinematen uansett! 
+					</p>
+					<li>
+						Invester i en kaffetrakter og termos
+					</li>
+					<p>
+						Eller eventuelt ønsk deg en til jul. Å kjøpe kaffe på skolen og både dyrt og veldig unødvendig når du kan lage deg akkurat den kaffen du vil ha hjemme og ta med på skolen. Det finnes så mange smaker og variasjoner, og det er mye billigere!
+					</p>
+					<li>
+						Alltid ha "basic"-varer tilgjengelig
+					</li>
+					<p>
+						Spagetti, ris, couscous, havregryn, krydder, olje, sukker, mel, og enda mye mer. Har du nok basic-varer, har du nesten alltid mulighet til å lage en god middag. Når du storhandler for uken, ta med noen bokser med bønner, linser og hakket tomat, og du har en spaghettirett for noen dager til bare en 20-kroning. 
+				</ol>
+			</div>
+			
+		</div>
+		
+	</main>
+	<script type="text/javascript">
+    var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	    showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	    var i;
+	    var x = document.getElementsByClassName("mySlides");
+	    if (n > x.length) {slideIndex = 1} 
+	    if (n < 1) {slideIndex = x.length} ;
+	    for (i = 0; i < x.length; i++) {
+	        x[i].style.display = "none"; 
+	    }
+	    x[slideIndex-1].style.display = "block"; 
+	}
+</script>
+</body>
+</html>
