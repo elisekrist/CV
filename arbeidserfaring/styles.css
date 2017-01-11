@@ -1,0 +1,57 @@
+.infoboks {
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	height: 700px;
+	margin-top: 100px;
+	width: 100%;
+	border: 1px solid black; 
+	box-shadow: inset -10px 0 10px -10px black;
+	overflow: auto;
+}
+
+.infoboks h1 {
+	padding-top: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.pil {
+	font-size: 40px;
+	position: fixed;
+	margin-left: -27%;
+}
+
+
+.skrift, .personalia {
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 50px;
+	width: 27%;
+	font-size: 18px;
+	float: left;
+}
+
+.skrift2 {
+	width: 30%;
+		padding-top: 20px;
+	padding-left: 50px;
+	width: 27%;
+	font-size: 18px;
+	text-align: left;
+	float: left;
+}
+
+.skrift h2, .skrift2 h2 {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.innrykk {
+	text-align: left;
+	margin-left: 50px;
+	float: left;
+	font-size: 16px;
+}
