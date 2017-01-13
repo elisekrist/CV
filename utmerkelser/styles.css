@@ -30,62 +30,26 @@
 	margin-left: -27%;
 }
 
-.profilbilde {
-	float: right;
-	margin-right: 50px;
-	border: 1px solid black;
-	margin-top: 20px;
-	width: 28%;
-}
-
 .hackathon {
 	float: right;
 	margin-right: 50px;
 	border: 1px solid black;
 	margin-top: 20px;
-	width: 40%;
-}
-
-
-.ikon {
-	width: 50px;
-	margin: 10px;
+	width: 35%;
 }
 
 .skrift, .personalia {
 	text-align: left;
 	padding-top: 20px;
 	padding-left: 50px;
-	width: 27%;
+	width: 50%;
 	font-size: 18px;
 	float: left;
 }
 
-.skrift2 {
-	width: 30%;
-		padding-top: 20px;
-	padding-left: 50px;
-	width: 27%;
-	font-size: 18px;
-	text-align: left;
-	float: left;
-}
-
-.skriftUT {
-	text-align: left;
-	padding-top: 20px;
-	padding-left: 50px;
-	width: 27%;
-	font-size: 18px;
-}
 
 
-.personalia {
-	font-size: 16px;
-	width: 58%;
-}
-
-.skrift h2, .skrift2 h2 {
+h2 {
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -97,11 +61,6 @@
 	font-size: 16px;
 }
 
-.innrykkUT {
-	text-align: left;
-	margin-left: 50px;
-	font-size: 16px;
-}
 
 li {
 	text-align: left;
