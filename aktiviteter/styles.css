@@ -19,8 +19,7 @@
 .infoboks h1 {
 	padding-top: 20px;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	margin-right: 60px;
 
 }
 
@@ -28,22 +27,6 @@
 	font-size: 40px;
 	float: left;
 	margin-left: 20px;
-}
-
-.profilbilde {
-	float: right;
-	margin-right: 50px;
-	border: 1px solid black;
-	margin-top: 20px;
-	width: 28%;
-}
-
-.hackathon {
-	float: right;
-	margin-right: 50px;
-	border: 1px solid black;
-	margin-top: 20px;
-	width: 40%;
 }
 
 
@@ -61,31 +44,8 @@
 	float: left;
 }
 
-.skrift2 {
-	width: 30%;
-		padding-top: 20px;
-	padding-left: 50px;
-	width: 27%;
-	font-size: 18px;
-	text-align: left;
-	float: left;
-}
 
-.skriftUT {
-	text-align: left;
-	padding-top: 20px;
-	padding-left: 50px;
-	width: 27%;
-	font-size: 18px;
-}
-
-
-.personalia {
-	font-size: 16px;
-	width: 58%;
-}
-
-.skrift h2, .skrift2 h2 {
+.skrift h2 {
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -94,12 +54,6 @@
 	text-align: left;
 	margin-left: 50px;
 	float: left;
-	font-size: 16px;
-}
-
-.innrykkUT {
-	text-align: left;
-	margin-left: 50px;
 	font-size: 16px;
 }
 
