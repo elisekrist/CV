@@ -38,7 +38,7 @@
 	width: 35%;
 }
 
-.skrift, .personalia {
+.skrift {
 	text-align: left;
 	padding-top: 20px;
 	padding-left: 50px;
@@ -46,8 +46,6 @@
 	font-size: 18px;
 	float: left;
 }
-
-
 
 h2 {
 	font-size: 20px;
@@ -62,7 +60,19 @@ h2 {
 }
 
 
-li {
-	text-align: left;
-	margin-left: 90px;
+
+@media only screen and (max-width: 1050px) {
+	.hackathon {
+		display: none;
+	}
+	
+	.skrift {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.skrift {
+		width: 70%;
+	}
 }
