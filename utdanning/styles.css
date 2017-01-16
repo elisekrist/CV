@@ -46,3 +46,22 @@ li {
 	text-align: left;
 	margin-left: 90px;
 }
+
+
+@media only screen and (max-width: 650px) {
+
+	.skrift {
+		width: 70%;
+	}
+	
+	.infoboks {
+		width: 100%;
+		margin: 0;
+	}
+	
+	.pil {
+		position: static;
+		margin-left: -200px;
+	}
+
+}
