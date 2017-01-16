@@ -55,3 +55,60 @@
 	font-size: 20px;
 	font-weight: 300;
 }
+
+
+
+@media only screen and (max-width: 1200px) {
+	#ikoner {
+		width: 50%;
+	}
+	.ikon {
+		margin: 5px;
+	}
+}
+
+@media only screen and (max-width: 970px) {
+	.ikon {
+		margin-top: 50px;
+	}
+	
+	.profilbilde {
+		display: none;
+	}
+	
+	#ikoner {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.personalia {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	#ikoner {
+		width: 100%;
+		float: right;
+	}
+	
+	.skrift {
+		width: 70%;
+	}
+	
+	.personalia {
+		font-size: 15px;
+		width: 70%;
+	}
+	
+	.infoboks {
+		width: 100%;
+		margin: 0;
+	}
+	
+	.pil {
+		position: static;
+		margin-left: -200px;
+	}
+
+}
