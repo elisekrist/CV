@@ -8,6 +8,7 @@
 	border: 1px solid black; 
 	box-shadow: inset -10px 0 10px -10px black;
 	overflow: auto;
+	color: black;
 }
 
 .infoboks h1 {
@@ -25,7 +26,7 @@
 }
 
 
-.skrift, .personalia {
+.skrift {
 	text-align: left;
 	padding-top: 20px;
 	padding-left: 50px;
@@ -34,17 +35,8 @@
 	float: left;
 }
 
-.skrift2 {
-	width: 30%;
-		padding-top: 20px;
-	padding-left: 50px;
-	width: 27%;
-	font-size: 18px;
-	text-align: left;
-	float: left;
-}
 
-.skrift h2, .skrift2 h2 {
+.skrift h2 {
 	font-size: 20px;
 	font-weight: 300;
 }
