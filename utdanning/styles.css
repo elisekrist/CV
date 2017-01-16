@@ -21,8 +21,8 @@
 
 .pil {
 	font-size: 40px;
-	position: fixed;
-	margin-left: -27%;
+	float: left;
+	margin-left: 20px;
 }
 
 
@@ -58,10 +58,6 @@ li {
 		width: 100%;
 		margin: 0;
 	}
-	
-	.pil {
-		position: static;
-		margin-left: -200px;
-	}
+
 
 }

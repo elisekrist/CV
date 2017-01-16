@@ -26,8 +26,8 @@
 
 .pil {
 	font-size: 40px;
-	position: fixed;
-	margin-left: -27%;
+	float: left;
+	margin-left: 20px;
 }
 
 .profilbilde {
